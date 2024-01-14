@@ -34,6 +34,7 @@ function createCard(jobData) {
         applyButton.addEventListener('click', () => {
             applyButtonClickHandler(job.job_title);
         });
+        applyButton.classList.add('apply-button');
 
         card.appendChild(applyButton);
 
